@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --clr-white: #ffffff;
+  --clr-white-300: #cbced3;
+  --clr-blackblue-300: #3a4d60;
+  --clr-purplewhite: #a87bb7;
+
+  --clr-blackblue-700: #2e3b4e;
+  --clr-pink-700: #e7526b;
+  --clr-pink-900: #b94256;
+  --clr-purple-900: #521a66;
+  --clr-black-500: #323131;
+
+  /* font families */
+  --ff-base: "Open Sans", sans-serif;
+  /* font weights */
+  --fw-regular: 500;
+  --fw-bold: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ------- main  start ------- */
+
+main .section-n1 {
+  background-image: url(../images/section-n1-background.png);
+  height: 800px;
+}
+main .section-n1 img:first-child {
+  width: 100%;
+}
+/* ------- main  end ------- */
